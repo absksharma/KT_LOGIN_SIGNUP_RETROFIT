@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.activities.MainActivity">
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="NAME"
+        android:inputType="text"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/usernameEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="USERNAME"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/phoneNoEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="PHONE No"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="PASSWORD"
+        android:inputType="numberPassword"
+        android:paddingStart="20dp" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="SIgn UP" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="SIgn UP" />
+
+
+</LinearLayout>
